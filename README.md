@@ -1,7 +1,5 @@
 # TP8DPBO2526C1
 
-Saya Zaidaan Dhyaa Ulhaq Budiono dengan NIM 2500945 mengerjakan Tugas Praktikum 8 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
-
 # Sistem Data Kampus (Dosen, Departemen, Mata Kuliah)
 
 Aplikasi CRUD PHP dengan arsitektur **MVC berbasis template** (HTML dipisah dari PHP).
@@ -12,20 +10,6 @@ Mengelola tiga tabel berelasi: `departments`, `lecturers`, dan `courses`.
 ## 1. Janji
 
 Saya Zaidaan Dhyaa Ulhaq Budiono dengan NIM 2500945 mengerjakan Tugas Praktikum 8 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
-
-### Daftar adegan yang direkam (urut)
-
-| No | Adegan | Yang ditunjukkan | Durasi |
-|----|--------|------------------|--------|
-| 1 | Struktur project | Folder `controllers/`, `models/`, `views/`, `templates/` di VS Code | ±30 dtk |
-| 2 | Database | Import `db_kampus.sql`, tampilkan 3 tabel + relasi (phpMyAdmin → Designer) | ±30 dtk |
-| 3 | CRUD Departemen | Tambah, ubah, hapus di `department.php` | ±45 dtk |
-| 4 | CRUD Dosen | Tambah dosen (pilih departemen, isi email), ubah, hapus di `index.php` | ±60 dtk |
-| 5 | CRUD Mata Kuliah | Tambah mata kuliah (pilih dosen), ubah, hapus di `course.php` | ±60 dtk |
-| 6 | Relasi data | Hapus departemen → dosen tetap ada (departemen jadi kosong); hapus dosen → mata kuliahnya ikut terhapus | ±45 dtk |
-| 7 | Alur kode | Telusuri satu request: `index.php` → Controller → Model → View → Template | ±60 dtk |
-
-Tips rekam: Windows `Win + G` (Xbox Game Bar) atau OBS; resolusi 1080p, aktifkan suara/narasi.
 
 ---
 
@@ -198,12 +182,18 @@ Klik **Edit** → `?edit=ID` → controller memanggil `Model::find(ID)` → view
 ---
 
 ## 5. Dokumentasi
+## 5.1 Tabel Dosen
 
-| Halaman | Gambar |
-|---------|--------|
-| Dosen | `docs/dosen.png` |
-| Departemen | `docs/departemen.png` |
-| Mata Kuliah | `docs/matakuliah.png` |
-| ERD (phpMyAdmin Designer) | `docs/erd.png` |
+https://github.com/user-attachments/assets/df3b35cc-ce69-4558-a525-2a30b2878eba
 
-Tampilkan dengan `![Dosen](docs/dosen.png)`.
+## 5.2 Tabel Departemen
+
+
+https://github.com/user-attachments/assets/b5154830-bb7c-4b41-94cd-60ec03ca8bca
+
+## 5.2 Tabel Mata Kuliah
+
+
+https://github.com/user-attachments/assets/96d852a0-1ecf-4eae-a785-4e13d7db1f31
+
+
