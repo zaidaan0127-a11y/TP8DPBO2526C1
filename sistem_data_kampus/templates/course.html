@@ -1,0 +1,28 @@
+<h4>Data Mata Kuliah</h4>
+{{ALERT}}
+<!-- Form tambah / ubah (id terisi saat mode edit) -->
+<div class="card mb-4"><div class="card-body">
+  <form method="post" action="course.php">
+    <input type="hidden" name="id" value="{{ID}}">
+    <div class="form-row">
+      <div class="form-group col-md-3"><label>Kode</label>
+        <input class="form-control" name="code" value="{{CODE}}" required></div>
+      <div class="form-group col-md-9"><label>Nama Mata Kuliah</label>
+        <input class="form-control" name="name" value="{{NAME}}" required></div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-3"><label>SKS</label>
+        <input type="number" min="1" max="6" class="form-control" name="credits" value="{{CREDITS}}"></div>
+      <div class="form-group col-md-3"><label>Semester</label>
+        <input type="number" min="1" max="14" class="form-control" name="semester" value="{{SEMESTER}}"></div>
+      <div class="form-group col-md-6"><label>Dosen Pengampu</label>
+        <select class="form-control" name="lecturer_id" required>{{LEC_OPT}}</select></div>
+    </div>
+    <button class="btn btn-primary">{{BTN}}</button> {{CANCEL}}
+  </form>
+</div></div>
+<!-- Tabel data -->
+<table class="table table-striped table-bordered">
+  <thead class="thead-light"><tr><th>No</th><th>Kode</th><th>Nama</th><th>SKS</th><th>Smt</th><th>Dosen</th><th>Aksi</th></tr></thead>
+  <tbody>{{ROWS}}</tbody>
+</table>
